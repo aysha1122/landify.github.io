@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'manrope';
+    src:url(../font/bold.otf),url(../font/light.otf),url(../font/medium.otf),url(../font/regular.otf),url(../font/semibold.otf),url(../font/thin.otf);
+}
+$manrope-font:'manrope';
+@font-face {
+    font-family:'manropee';
+    src:url(../font/regular.otf),url(../font/semibold.otf);
+}
+$manrope-font1:'manropee';
+@font-face {
+    font-family:'manrope1';
+    src:url(../font/thin.otf);
+}
+$manrope-font2:'manrope1';

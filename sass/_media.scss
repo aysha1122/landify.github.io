@@ -1,0 +1,392 @@
+//@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+//@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+//@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+//@media (max-width: 1199.98px) { ... }
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .navbar-wrapper .header-contener .navbar-collapse .cls-head-ul .navbar-nav .xcustom-nav-item {
+        display: block;
+    }
+
+    .navbar-wrapper {
+        .first-bg {
+            display: none;
+        }
+
+        .first-bg-big {
+            display: none;
+        }
+
+        .first-bg2 {
+            display: none;
+        }
+
+        .first-bg3 {
+            display: none;
+        }
+
+        .first-bg4 {
+            display: none;
+        }
+
+        .header-contener {
+            .custom-nav-cls {
+                .nav-img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .navbar-wrapper .header-contener .first-section-wrap .first {
+        padding-top: 60px;
+    }
+
+    .tailor-section .tailor-text-col {
+        padding-top: 64px;
+    }
+
+    .real-wrapper .real-container .real-box2 {
+        margin-top: 20px;
+    }
+
+    .real-wrapper .real-container .real-box0 {
+        margin-top: 20px;
+    }
+
+    .real-wrapper .real-container .real-box3 {
+        margin-top: 20px;
+    }
+
+    .real-wrapper .real-container .real-header {
+        text-align: center;
+    }
+
+    .achive-wrapper .achive-header {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .achive-wrapper .achive-for-p{
+        padding-left: 100px;
+    }
+    .achive-wrapper .achive-for-p1{
+        padding-left: 50px;
+    }
+    .achive1-text {
+        margin: 0 auto;
+    }
+    .project-wrapper .project-text {
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .project-wrapper .project-text .project-icon .project-icon1 {
+        justify-content: center;
+    }
+
+    .project-wrapper .kk {
+        display: flex;
+        background-color: $project_bg;
+    }
+
+    .project-wrapper .kk .project-img1 {
+        margin-top: 0px;
+        margin-left: auto;  
+    }
+
+    .project-wrapper .kk .project-img2 {
+        margin-bottom: 0px;
+        margin-right: auto;
+    }
+
+    
+
+    .project-wrapper .project-text .project-icon {
+        padding-top: 28px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .real-wrapper .real-container .real-box1 {
+        padding: 22px;
+    }
+    .navbar-wrapper .header-contener .first-section-wrap .kkkk {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar-wrapper .header-contener .first-section-wrap .first {
+        padding-top: 0;
+    }
+    .achive-wrapper .achive-for-p{
+        padding-left: 100px;
+    }
+    .achive-wrapper .achive-for-p1{
+        padding-left: 50px;
+    }
+}
+@media (width: 1024px) {
+    .achive-wrapper .achive-for-p{
+        padding-left: 180px;
+    }
+    .achive-wrapper .achive-for-p1{
+        padding-left: 80px;
+    }
+    .headline-wrapper .headline-text p {
+        padding-bottom: 0px;
+    }
+    .project-wrapper .project-text {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .navbar-wrapper .header-contener .custom-nav-cls .cls-head-ul {
+        // background-color: rgba(0,0,0,0.2);
+        padding: 30px 0px;
+        display: flex;
+    }
+
+    .navbar-wrapper .header-contener .custom-nav-cls .cls-head-ul .navbar-nav {
+        margin: 0 auto;
+    } 
+    .real-wrapper .real-container .real-box1 {
+        padding: 32px;
+    }
+    .navbar-wrapper .header-contener .first-section-wrap .first {
+        padding-top: 30px;
+        padding-bottom: 45px;
+    }
+
+    .brand-wrapper .brand-row1 .brand1-img {
+        margin: auto;
+        padding: 30px 0px;
+    }
+
+    .headline-wrapper .headline-text {
+        padding-left: 48px;
+        padding-right: 46px;
+        padding-top: 52px;
+        text-align: center;
+    }
+
+    .headline-wrapper .headline-text .btn-text {
+        justify-content: center;
+    }
+
+    .fashion-wrapper {
+        text-align: center;
+        padding: 70px 0px;
+
+        .header4-text {
+            padding-bottom: 10px;
+        }
+    }
+
+    .project-wrapper .project-text h2 {
+        font-size: 47px;
+        padding-bottom: 15px;
+    }
+
+    .footer-wrapper {
+        text-align: center;
+    }
+
+    .footer-wrapper .footer-text2 .logo-img1 {
+        padding-bottom: 0px;
+    }
+
+    .footer-wrapper .footer-text1 .footer-ul-link {
+        justify-content: center;
+    }
+
+    .footer-wrapper .footer-text1 .footer-ul-link .footer-li-link {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .headline-wrapper .headline-text p {
+        padding-bottom: 22px;
+    }
+
+    .footer-wrapper .footer-text1 .paragraph2-text {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .navbar-wrapper .header-contener .first-section-wrap {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .navbar-wrapper .header-contener .first-section-wrap .first .btn-class {
+        justify-content: center;
+    }
+    .achive-wrapper .achive-header h2 {
+        font-size: 36px;
+    }
+
+    .project-wrapper .project-text h2 {
+        font-size: 37px;
+    }
+
+    .project-wrapper .kk1 {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .navbar-wrapper .header-contener .first-section-wrap .first .btn-class .btn1-text {
+        padding: 12px 35px;
+    }
+
+    .real-wrapper .real-container .coma2 {
+        display: none;
+    }
+
+    .achive-wrapper .achive-header h2 {
+        font-size: 24px;
+    }
+
+    .achive-wrapper .ex-achive1-text {
+        padding-top: 0px;
+    }
+
+    .achive-wrapper .achive1-text {
+        padding-top: 20px;
+    }
+    .achive-wrapper .achive-for-p{
+        padding-left: 10px;
+    }
+    .achive-wrapper .achive-for-p1{
+        padding-left: 10px;
+    }
+
+    .header4-text {
+        font-size: 22px;
+    }
+
+    .project-wrapper .project-text h2 {
+        font-size: 24px;
+    }
+
+    .footer-wrapper .footer-text1 .footer-ul-link .footer-li-link {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .footer-wrapper .footer-text1 .footer-ul-link {
+        display: block;
+    }
+
+    .headline-wrapper .headline-text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footer-wrapper .footer-text1 .paragraph2-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .headline-wrapper {
+        padding: 50px 0px;
+    }
+
+    .fashion-wrapper {
+        padding: 60px 0px;
+    }
+
+    .achive-wrapper {
+        padding: 50px 0px;
+    }
+
+    .achive-wrapper .achive-header {
+        padding-bottom: 0px;
+    }
+
+    .project-wrapper .project-text .project-icon {
+        padding-top: 8px;
+    }
+
+    .fashion-wrapper .fashion-img {
+        padding-top: 28px;
+    }
+
+    .navbar-wrapper {
+        padding-bottom: 28px;
+    }
+
+    .brand-wrapper {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .brand-wrapper .brand-row1 .brand1-img {
+        padding: 20px 0px;
+    }
+
+    .tailor-section .tailor-header {
+        padding-bottom: 28px;
+    }
+
+    .tailor-section .tailor-text-col {
+        padding-top: 30px;
+    }
+
+    .real-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .real-wrapper .real-container .real-box1 .real-box1-text .paragraph1-text1 {
+        padding-bottom: 0px;
+    }
+    
+    .project-wrapper .kk .project-img1 {
+        margin-top: 0px;
+        margin-left: auto; 
+        margin-right: auto;  
+    }
+
+    .project-wrapper .kk .project-img2 {
+        margin-bottom: 0px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+    .headline-wrapper .headline-text p {
+        padding-bottom: 2px;
+        padding-top: 5px;
+    }
+    .real-wrapper .real-container .real-header p {
+        padding-bottom: 14px;
+    }
+}
+@media (max-width: 400px) {
+.achive-wrapper .achive1-text .achive-icon {
+    padding-right: 5px;
+}
+.achive-wrapper .achive-for-p {
+    padding-left: 0px;
+}
+.headline-wrapper {
+    padding: 20px 0px;
+}
+.fashion-wrapper {
+    padding: 35px 0px;
+}
+}

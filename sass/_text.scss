@@ -1,0 +1,153 @@
+.custom-nav-link{
+    font-family: $manrope-font1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: $header1_color;
+    margin-bottom: 0px;
+}
+.header1-text{
+    font-family: $manrope-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 98px;
+    color:$header1_color;
+}
+.header2-text{
+    font-family: $manrope-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color:$header1_color;
+}
+.header3-text{
+    font-family: $manrope-font1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: $header1_color;
+}
+.header4-text{
+    font-family: $manrope-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: $header1_color;
+}
+.paragraph1-text{
+    font-family: $manrope-font1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: $header1_color;
+}
+.paragraph2-text{
+    font-family: $manrope-font1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: $header1_color;
+}
+.real-ceo-text{
+    font-family: $manrope-font1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: $silver_color;
+}
+.achivement-number-text{
+    font-family: $manrope-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+    color:$header1_color;
+    margin-bottom: 0px;
+}
+.btn1-text{
+    font-family:$manrope-font1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: $white_color;
+}
+
+//@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+//@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+//@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+//@media (max-width: 1199.98px) { ... }
+
+@media (max-width: 1199.98px) {
+    .header1-text{
+        font-size: 54px;
+    }
+ }
+ @media (width: 1024px) {
+    .paragraph1-text {
+        font-size: 12px;
+    }
+}
+@media (max-width: 991.98px) { 
+    .header1-text{
+        font-size: 34px;
+        line-height: 58px;
+    }
+}
+@media (max-width: 767.98px) {
+    .header2-text{
+        font-size: 38px;
+    }
+    .header4-text{
+        font-size: 32px;
+    }
+}
+@media (max-width: 575.98px) { 
+   
+    .header1-text{
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .header3-text{
+        font-size: 20px;
+    }
+    .header4-text{
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .btn1-text{   
+        font-size: 14px;
+    }
+    .header2-text{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .paragraph1-text {
+        font-size: 12px;
+    }
+    .paragraph2-text{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .achivement-number-text{
+        font-size: 18px;
+    }
+ }
+ @media (max-width: 350px) { 
+    .paragraph1-text {
+        font-size: 10px;
+    }
+ }
